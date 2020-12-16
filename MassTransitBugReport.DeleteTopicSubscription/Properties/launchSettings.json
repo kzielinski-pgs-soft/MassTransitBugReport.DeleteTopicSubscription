@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MassTransitBugReport.DeleteTopicSubscription": {
+      "commandName": "Project"
+    }
+  }
+}
