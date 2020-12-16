@@ -45,6 +45,7 @@
 
                 configurator.ReceiveEndpoint(endpointConfigurator =>
                 {
+                    endpointConfigurator.RemoveSubscriptions = true;
                     endpointConfigurator.Consumer<Message1Consumer>();
                 });
             });
